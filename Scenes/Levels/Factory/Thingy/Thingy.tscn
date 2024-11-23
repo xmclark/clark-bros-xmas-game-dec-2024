@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://c235s3kx60r78"]
+
+[ext_resource type="Script" path="res://Scenes/Levels/Factory/Thingy/thingy.gd" id="1_q4qkt"]
+[ext_resource type="Texture2D" uid="uid://bwic3md1u2n50" path="res://Art/Tiny Coast Pack/Other/Palmtree_n_fruits.png" id="2_tdchb"]
+[ext_resource type="PackedScene" uid="uid://4nmylxgtvwdb" path="res://Scenes/Levels/Factory/Interaction/InteractionArea.tscn" id="3_ylnb8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vd42k"]
+atlas = ExtResource("2_tdchb")
+region = Rect2(4.09198, 0, 39.2603, 47.7001)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6itvj"]
+radius = 86.209
+
+[node name="Thingy" type="Node2D"]
+position = Vector2(147, 255)
+script = ExtResource("1_q4qkt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_vd42k")
+
+[node name="InteractionArea" parent="." instance=ExtResource("3_ylnb8")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("CircleShape2D_6itvj")

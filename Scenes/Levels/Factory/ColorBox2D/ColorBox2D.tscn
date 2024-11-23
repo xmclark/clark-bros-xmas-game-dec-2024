@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmhmskm4x8kdu"]
+
+[ext_resource type="Script" path="res://Scenes/Levels/Factory/ColorBox2D/color_box_2d.gd" id="1_566an"]
+[ext_resource type="Texture2D" uid="uid://dc23nsa4snkqy" path="res://Scenes/Levels/Factory/ColorBox2D/white.png" id="2_xnnhf"]
+
+[node name="ColorBox2d" type="Node2D"]
+script = ExtResource("1_566an")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.191911, 0.696246, 0.752032, 1)
+position = Vector2(5, 5)
+scale = Vector2(10, 10)
+texture = ExtResource("2_xnnhf")

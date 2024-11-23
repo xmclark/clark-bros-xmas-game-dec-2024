@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://c1ug6xg0hbx5p"]
+
+[ext_resource type="Script" path="res://Scenes/Levels/Factory/Player/player.gd" id="2_prgtw"]
+[ext_resource type="Texture2D" uid="uid://criwv6nuivcxy" path="res://Art/icon.svg" id="4_prgtw"]
+[ext_resource type="PackedScene" uid="uid://c235s3kx60r78" path="res://Scenes/Levels/Factory/Thingy/Thingy.tscn" id="4_sd2bc"]
+[ext_resource type="PackedScene" uid="uid://cmhmskm4x8kdu" path="res://Scenes/Levels/Factory/ColorBox2D/ColorBox2D.tscn" id="7_ao2xc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_csh0b"]
+radius = 65.0692
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_csh0b"]
+size = Vector2(627, 65)
+
+[node name="FactoryLevel" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="." groups=["player"]]
+position = Vector2(390, 197)
+script = ExtResource("2_prgtw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("CircleShape2D_csh0b")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = ExtResource("4_prgtw")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-6, 0)
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(21, 322)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(359, -6)
+shape = SubResource("RectangleShape2D_csh0b")
+
+[node name="ColorBox2d" parent="Floor" instance=ExtResource("7_ao2xc")]
+position = Vector2(6, 0)
+
+[node name="Sprite2D" parent="Floor/ColorBox2d" index="0"]
+position = Vector2(354, -5.00002)
+scale = Vector2(628, 64)
+
+[node name="Thingy" parent="." instance=ExtResource("4_sd2bc")]
+
+[node name="Thingy2" parent="." instance=ExtResource("4_sd2bc")]
+position = Vector2(596, 193)
+
+[node name="Thingy3" parent="." instance=ExtResource("4_sd2bc")]
+position = Vector2(365, 30)
+
+[editable path="Floor/ColorBox2d"]
