@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://38leqdkoiiol"]
+
+[ext_resource type="TileSet" uid="uid://vcdhxobwfep5" path="res://Scenes/Levels/Factory/Resources/FactoryLevelPlatforms.tres" id="1_oc7bw"]
+[ext_resource type="PackedScene" uid="uid://4nmylxgtvwdb" path="res://Scenes/Levels/Factory/Interaction/InteractionArea.tscn" id="2_s1to8"]
+
+[node name="Platform" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_oc7bw")
+
+[node name="InteractionArea" parent="." instance=ExtResource("2_s1to8")]
