@@ -1,0 +1,212 @@
+[gd_scene load_steps=29 format=3 uid="uid://brhiopsehn5y0"]
+
+[ext_resource type="Script" path="res://Scenes/Levels/Factory/ConveyorBelt/conveyor_belt.gd" id="1_ky2mm"]
+[ext_resource type="Texture2D" uid="uid://xyluvvgxyp4j" path="res://Art/Conveyor_Belt/frame0000.png" id="1_xav1y"]
+[ext_resource type="Texture2D" uid="uid://clucy5kvtlb0i" path="res://Art/Conveyor_Belt/frame0001.png" id="2_f88d2"]
+[ext_resource type="Texture2D" uid="uid://bpjhhka7wopi8" path="res://Art/Conveyor_Belt/frame0002.png" id="3_ct87i"]
+[ext_resource type="Texture2D" uid="uid://dd0pajw6dcq3p" path="res://Art/Conveyor_Belt/frame0003.png" id="4_a8wuc"]
+[ext_resource type="Texture2D" uid="uid://c3llsqw05qxyc" path="res://Art/Conveyor_Belt/frame0004.png" id="5_gm6lb"]
+[ext_resource type="Texture2D" uid="uid://d03ebrp8tm7y6" path="res://Art/Conveyor_Belt/frame0005.png" id="6_pyrvp"]
+[ext_resource type="Texture2D" uid="uid://c4a1c2tkywtb0" path="res://Art/Conveyor_Belt/frame0006.png" id="7_l41gd"]
+[ext_resource type="Texture2D" uid="uid://cuetanoks6qe" path="res://Art/Conveyor_Belt/frame0007.png" id="8_3ba3i"]
+[ext_resource type="Texture2D" uid="uid://kymk8vovex5" path="res://Art/Conveyor_Belt/frame0008.png" id="9_uk1nc"]
+[ext_resource type="Texture2D" uid="uid://cb6giv0x77hxy" path="res://Art/Conveyor_Belt/frame0009.png" id="10_h8ovg"]
+[ext_resource type="Texture2D" uid="uid://bu5neqnwxtew8" path="res://Art/Conveyor_Belt/frame0010.png" id="11_ivf1a"]
+[ext_resource type="Texture2D" uid="uid://bwjayy21bypms" path="res://Art/Conveyor_Belt/frame0011.png" id="12_wd7hn"]
+[ext_resource type="Texture2D" uid="uid://bwc5cav7skr3d" path="res://Art/Conveyor_Belt/frame0012.png" id="13_jft0m"]
+[ext_resource type="Texture2D" uid="uid://3t1ptkupro1e" path="res://Art/Conveyor_Belt/frame0013.png" id="14_rmoj5"]
+[ext_resource type="Texture2D" uid="uid://c2acem3x0u1ke" path="res://Art/Conveyor_Belt/frame0014.png" id="15_d67je"]
+[ext_resource type="Texture2D" uid="uid://cdxhygoeurhk0" path="res://Art/Conveyor_Belt/frame0015.png" id="16_enylt"]
+[ext_resource type="Texture2D" uid="uid://drlbeccc6q2u1" path="res://Art/Conveyor_Belt/frame0016.png" id="17_q1jsa"]
+[ext_resource type="Texture2D" uid="uid://cpt715jh6hj3i" path="res://Art/Conveyor_Belt/frame0017.png" id="18_dnqmi"]
+[ext_resource type="Texture2D" uid="uid://dvqb2nvv7h8pp" path="res://Art/Conveyor_Belt/frame0018.png" id="19_l1uew"]
+[ext_resource type="Texture2D" uid="uid://c1e6dg77dvpqd" path="res://Art/Conveyor_Belt/frame0019.png" id="20_1a3v7"]
+[ext_resource type="Texture2D" uid="uid://dxolj4ljh0njk" path="res://Art/Conveyor_Belt/frame0020.png" id="21_muspe"]
+[ext_resource type="Texture2D" uid="uid://nvrrnurvlx2l" path="res://Art/Conveyor_Belt/frame0021.png" id="22_fdjh0"]
+[ext_resource type="Texture2D" uid="uid://u1jbnecd7lqt" path="res://Art/Conveyor_Belt/frame0022.png" id="23_3uqj4"]
+[ext_resource type="Texture2D" uid="uid://rjo5f3e3tpn" path="res://Art/Conveyor_Belt/frame0023.png" id="24_ojpya"]
+[ext_resource type="Texture2D" uid="uid://o2f58qd3yduq" path="res://Art/Conveyor_Belt/frame0024.png" id="25_h4wk6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rbhop"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_h4wk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ojpya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3uqj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_fdjh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_muspe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1a3v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l1uew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_dnqmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_q1jsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_enylt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_d67je")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rmoj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jft0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wd7hn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ivf1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h8ovg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_uk1nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3ba3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_l41gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pyrvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gm6lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a8wuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ct87i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_f88d2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_xav1y")
+}],
+"loop": true,
+"name": &"conveyor_belt_run_left",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xav1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_f88d2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ct87i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a8wuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gm6lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pyrvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_l41gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3ba3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_uk1nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h8ovg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ivf1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wd7hn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jft0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rmoj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_d67je")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_enylt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_q1jsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_dnqmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l1uew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1a3v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_muspe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_fdjh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3uqj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ojpya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_h4wk6")
+}],
+"loop": true,
+"name": &"conveyor_belt_run_right",
+"speed": 30.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_vkx0d"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -8, 0, 0, 0, 0, 0, -139, -2, 0, 0, 0, 0, -159, -7, 0, 0, 0, 0, -168, -25, 0, 0, 0, 0, -168, -38, 0, 0, 0, 0, -163, -52, 0, 0, 0, 0, -149, -61, 0, 0, 0, 0, -123, -61, 0, 0, 0, 0, 11, -59, 0, 0, 0, 0, 24, -57, 0, 0, 0, 0, 38, -46, 0, 0, 0, 0, 43, -32, 0, 0, 0, 0, 37, -18, 0, 0, 0, 0, 26, -4, 0, 0, 0, 0, 16, -1, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, -8, 0)
+}
+point_count = 17
+
+[node name="ConveyorBelt" type="Node2D"]
+script = ExtResource("1_ky2mm")
+state = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(114, 37.8)
+scale = Vector2(0.2, 0.2)
+sprite_frames = SubResource("SpriteFrames_rbhop")
+animation = &"conveyor_belt_run_left"
+frame_progress = 0.244535
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(178, 67.8)
+curve = SubResource("Curve2D_vkx0d")

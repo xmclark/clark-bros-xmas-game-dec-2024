@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bb77piy2hqdjg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mcao4"]
+radius = 5.0
+height = 28.0
+
+[node name="Tread" type="AnimatableBody2D"]
+sync_to_physics = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_mcao4")
